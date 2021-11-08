@@ -19,7 +19,7 @@ class App extends Component {
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/input" component={Input} />
+          <Route path="/input" component={3   } />
           {/* 动态路由 */}
           <Route exact path="/web" component={Web} />
           <Route exact path={`/web/:cls`} component={Web} />
